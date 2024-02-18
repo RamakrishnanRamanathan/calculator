@@ -1,11 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cng-Calculator</title>
-  </head>
-  <body>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cng-Calculator</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class=" bg-darkpink">
+  <div class="bg-white p-10 max-w-lg m-auto mt-8 rounded">
+    <h3 class="font-semibold text-sm text-red-600 ">CNG Cost Calculator</h3>
+<div class="form_margin">
+  <div>
+    <label for="tripdistance">Trip Distance</label>
+
+  </div>
+  <div>
+
+    <input type="number" id="tripdistance" placeholder="Trip Distance" class="form_input" required>
+  </div>
+</div>
+<div class="form_margin">
+  <div>
+    <label for="fuelefficiency">Fuel Efficiency</label>
+
+  </div>
+  <div>
+
+    <input type="number" id="fuelefficiency" placeholder="FuelEffieciency" class="form_input" required>
+  </div>
+</div>
+<div class="form_margin">
+  <div>
+    <label for="fuelcost">Fuel Cost</label>
+
+  </div>
+  <div>
+
+    <input type="number" id="fuelcost" placeholder="Cost" class="form_input" >
+  </div>
+</div>
+
+  <div class="form_margin ">
+    <button class=" bg-red-700 w-lg w-full p-2   rounded text-white uppercase">Calculate</button>
+  </div>
+
+ 
+ 
+</body>
+
 </html>
